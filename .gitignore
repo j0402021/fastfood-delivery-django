@@ -1,12 +1,4 @@
-# .gitignore
-
-# Ambiente virtual
-venv/
-.env
-
-# Python
-__pycache__/
-*.pyc
-
-# VS Code (opcional)
-.vscode/
+git rm -r --cached venv/
+git add .
+git commit -m "Remover venv/ do versionamento e adicionar .gitignore"
+git push
