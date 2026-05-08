@@ -1,0 +1,12 @@
+# .gitignore
+
+# Ambiente virtual
+venv/
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# VS Code (opcional)
+.vscode/
